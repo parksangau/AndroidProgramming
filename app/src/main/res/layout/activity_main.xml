@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:text="button1입니다"
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+
+    <Button
+        android:text="@string/strBtn2"
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- 버튼 만드는 방법 2가지
+        1. android:text 속성 "" 안에 바로 적어주거나
+        2. @string/이름 에 string name="" 써주고 태그 안에 써줌
+        -->
+
+
+</LinearLayout>
